@@ -51,12 +51,12 @@ To build and run this project, you will need:
 Project Structure
 
 ├── Inc/
-│   ├── spi.h            # SPI driver registers and function prototypes
-│   └── usart.h          # USART driver registers and function prototypes
+│   ├── spi.h            # SPI driver registers, interrupt configurations and prototypes
+│   └── usart.h          # USART driver registers, interrupt configurations and prototypes
 ├── Src/
-│   ├── spi.c            # SPI peripheral implementation
-│   ├── usart.c          # USART peripheral implementation
-│   └── main.c           # Application entry point and example usage
+│   ├── spi.c            # SPI peripheral and interrupt implementation
+│   ├── usart.c          # USART peripheral and interrupt implementation
+│   └── main.c           # Application entry point, ISR routines and example usage
 └── README.md
 
 License
