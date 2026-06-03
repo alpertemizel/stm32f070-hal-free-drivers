@@ -48,16 +48,5 @@ To build and run this project, you will need:
    #include "spi.h"
 4. Initialize the system clock and the required peripheral structures. You can check the main.c file for a complete example.
 
-Project Structure
-
-├── Inc/
-│   ├── spi.h            # SPI driver registers, interrupt configurations and prototypes
-│   └── usart.h          # USART driver registers, interrupt configurations and prototypes
-├── Src/
-│   ├── spi.c            # SPI peripheral and interrupt implementation
-│   ├── usart.c          # USART peripheral and interrupt implementation
-│   └── main.c           # Application entry point, ISR routines and example usage
-└── README.md
-
 License
 This project is open-source and available under the MIT License.
